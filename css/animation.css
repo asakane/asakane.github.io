@@ -96,7 +96,7 @@
 .slide1,.slide2,.slide3 {
 	box-shadow: 4px 4px 10px rgba(0,0,0,0.2);	/*影の設定。右へ、下へ、ぼかし幅。0,0,0は黒の事で0.2は色が20%出た状態。*/
 	transform: scale(0.8);	/*実寸に対して90%のサイズで表示させる指定。原寸大がいいならこの１行を削除。*/
-	z-index: 2;	/*下の飾りより前面に表示させる指定*/
+/* 	z-index: 2;	/*下の飾りより前面に表示させる指定*/ */
 }
 
 /*slide1への追加設定。
@@ -106,7 +106,7 @@ sとついている数字は時間(秒)になります。お好みで調整し�
 	animation: slide1 15s linear infinite,mask 15s linear infinite,opa1 1s linear;
 }
 
-/*slide2への追加設定
+/* /*slide2への追加設定
 slide2とmaskの２つのアニメーションを指定しています。
 sとついている数字は時間(秒)になります。お好みで調整して下さい。*/
 .slide2 {
@@ -118,7 +118,7 @@ slide3とmaskの２つのアニメーションを指定しています。
 sとついている数字は時間(秒)になります。お好みで調整して下さい。*/
 .slide3 {
 	animation: slide3 15s linear infinite,mask 15s linear infinite;
-}
+} */
 
 /*kazari1への追加設定
 sとついている数字は時間(秒)になります。お好みで調整して下さい。*/

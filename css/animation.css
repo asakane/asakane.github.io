@@ -89,7 +89,7 @@
 /*スライドショー内の５枚の画像（スライド写真と、背景の装飾）の共通設定*/
 .slide1,.slide2,.slide3,.kazari1,.kazari2 {
 	width: 100%;height: auto;
-	position: absolute;right: 0px;top: 0px;
+	position: absolute;right: 60px;top: 0px;
 }
 
 /*slide1、slide2、slide3（スライド写真）への追加設定*/
@@ -124,7 +124,7 @@ sとついている数字は時間(秒)になります。お好みで調整し�
 sとついている数字は時間(秒)になります。お好みで調整して下さい。*/
 .kazari1 {
 	animation: kazari1 10s linear infinite;
-	top: -30px;right: 60px;	/*上から、右からの配置場所の指定。スライド写真と位置をずらす為の設定になります。*/
+	top: -30px;right: 50px;	/*上から、右からの配置場所の指定。スライド写真と位置をずらす為の設定になります。*/
 	z-index: 1;	/*kazari2より前面に表示させる指定*/
 }
 

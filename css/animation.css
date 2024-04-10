@@ -106,17 +106,17 @@ sとついている数字は時間(秒)になります。お好みで調整し�
 	animation: slide1 15s linear infinite,mask 15s linear infinite,opa1 1s linear;
 }
 
-/* /*slide2への追加設定
+/*slide2への追加設定
 slide2とmaskの２つのアニメーションを指定しています。
 sとついている数字は時間(秒)になります。お好みで調整して下さい。*/
-.slide2 {
+/* .slide2 {
 	animation: slide2 15s linear infinite,mask 15s linear infinite;
-}
+} */
 
 /*slide3への追加設定
 slide3とmaskの２つのアニメーションを指定しています。
 sとついている数字は時間(秒)になります。お好みで調整して下さい。*/
-.slide3 {
+/* .slide3 {
 	animation: slide3 15s linear infinite,mask 15s linear infinite;
 } */
 

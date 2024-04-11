@@ -212,6 +212,11 @@ ul.icon img {
 	width: 30px;	/*アイコン画像の幅*/
 }
 
+ul.icon li:nth-child(2) {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 /*画像のマウスオン時*/
 ul.icon img:hover {
 	opacity: 0.8;	/*透明度。0.8は色が80%出た状態の事。*/

@@ -198,6 +198,7 @@ footer .pr {
 /*アイコン類を囲むブロック*/
 ul.icon {
 	list-style: none;
+	text-align: center;
 	margin: 0;padding: 0;
 	margin-bottom: 30px;	/*下に空けるスペース*/
 }
